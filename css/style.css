@@ -1,19 +1,16 @@
 body{
-  background-color:#A3E0F4;
+  background-color:#cccc33;
 }
 p{
-  text-align:center;color:yellowgreen;font-size:60px;
+  text-align:center;color:powderblue;font-size:90px;border-style:dotted;Background-color:orange;
 }
 h1{
- Font-size:60px;Text-align:center;border-style:dotted;color:yellowgreen;margin:20px;padding:5px;background-color:white}
+ Font-size:80px;Text-align:center;color:powderblue;margin:20px;padding:5px;}
 h2{
- text-align:center; Border-style:dashed;color:powderblue;border-color:orange;background-color:#da532c;font-size:40px;margin:40px;
+ text-align:center; Border-style:dashed;color:powderblue;border-color:powderblue;background-color:yellowgreen;font-size:40px;margin:40px;
 }
 h3{
-  text-align:center;color:yellowgreen;font-size:70px;static;
-}
-h4{
-  text-align:center;color:yellowgreen;font-size:28px;static;
+  text-align:center;color:powderblue;font-size:28px;static;
 }
 img{
   display: block;
@@ -24,15 +21,16 @@ img{
 .flex-container{
   display:flex;
   justify-content:center;
+  Flex-direction:column;
+  Align-items:center;
+  background-color:orange;
+  margin-top: 3%;
+  margin-left:30%; margin-right:30%;
+  padding:2%;
 }
 ul{
-  color:powderblue;background-color:purple;font-size:20px;background-color:white;padding:60px;border:100px;margin:100px;
+  color:powderblue;font-size:25px;background-color:orange;padding:10px;border:100px;
 }
 ol{
-  color:white;background-color:powderblue;font-size:20px;margin:auto;
+  color:orange;background-color:powderblue;font-size:20px;margin-bottom:3%;
 }
-
-ul{
-  list-style-type:U+1F981;
-}
-
