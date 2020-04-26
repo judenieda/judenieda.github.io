@@ -8,9 +8,6 @@ document.getElementById("button").style.display="none"}
 function 
   changename(){
     //Change name to nickname
-  var h1= document.getElementById("NickName");
-  if (h1.innerHTML==="Judenie")
-    h1.innerHTML="Juju"
-  else h1.HTML="Judenie";
+  document.getElementById(NickName).innerHTML='Juju';
   }
 
