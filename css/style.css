@@ -34,3 +34,6 @@ ul{
 ol{
   color:orange;background-color:powderblue;font-size:20px;margin-bottom:3%;
 }
+  button{
+    padding:20px;color:pink;
+}
